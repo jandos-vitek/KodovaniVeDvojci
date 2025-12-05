@@ -1,1 +1,1 @@
-# KodovaniVeDvojci
+Vit Jandos
