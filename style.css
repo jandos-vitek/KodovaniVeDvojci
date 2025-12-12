@@ -68,35 +68,35 @@ a.icon {
   color: white
 }
 
-.about-us{
+.about-us {
   display: flex;
   width: 100%;
-  height: 800px;
+  min-height: 800px;
   justify-content: center;
   align-items: center;
   column-gap: 50px;
 }
 
-.about-us article{
+.about-us article {
   display: flex;
   flex-direction: column;
-  width: 35%; 
+  width: 35%;
   max-height: 403px;
   padding: 30px;
 }
 
-.about-us p{
+.about-us p {
   width: 80%;
   font-size: 22px;
 }
 
-h1{
+h1 {
   margin: 0;
   font-size: 30px;
   color: black;
 }
 
-.about-us img{
+.about-us img {
   width: 100%;
   object-fit: contain;
   height: auto;
@@ -115,15 +115,15 @@ h1{
   color: rgb(255, 255, 255);
 }
 
-.what-we-do article{
+.what-we-do article {
   display: flex;
   flex-direction: column;
-  width: 60%; 
+  width: 60%;
   max-height: 400px;
   text-align: center;
 }
 
-.what-we-do h1{
+.what-we-do h1 {
   color: white;
 }
 
@@ -151,6 +151,76 @@ h1{
   justify-self: center;
 }
 
+.our-trips {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container-images {
+  display: flex;
+  width: 51vw;
+  flex-wrap: wrap;
+  gap: 1vw;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.container-images div {
+  height: 25vh;
+  width: 16vw;
+  font-size: 3vw;
+  align-content: center;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 2%;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.img1 {
+  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/daniel-tseng-73lmMKhi2U8-unsplash.jpg);
+}
+
+.img2 {
+  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg);
+}
+
+.img3 {
+  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/chung-yee-tsang-wqxCKM0R6R8-unsplash.jpg);
+}
+
+.img4 {
+  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/james-wheeler-ZOA-cqKuJAA-unsplash.jpg);
+}
+
+.img5 {
+  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/julian-bialowas-ilkTnuMunP8-unsplash.jpg);
+}
+
+.img6 {
+  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/matej-drha-rbDzMcJsBkY-unsplash.jpg);
+}
+
+.img7 {
+  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/patrick-szylar-45bM3XGqnDE-unsplash.jpg);
+}
+
+.img8 {
+  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/simon-english-48nerZQCHgo-unsplash.jpg);
+}
+
 .contacts {
   display: flex;
   align-items: center;
@@ -176,7 +246,7 @@ h3 {
 @media screen and (width <=768px) {
 
   /* w:390px */
-  .container {
+  .container-ima {
     width: 100%
   }
 
@@ -186,6 +256,40 @@ h3 {
 
   a.icon {
     display: block
+  }
+
+  .container-images {
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .container-images div {
+    height: 25vh;
+    width: 100%;
+    font-size: 3vw;
+    align-content: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 2%;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8 {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container-images .img-title {
+    height: 12.5vh;
   }
 }
 
