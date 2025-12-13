@@ -14,6 +14,10 @@ section.container {
   min-height: 963px
 }
 
+p {
+  font-size: 20px;
+}
+
 .topnav {
   display: flex;
   min-height: 80px;
@@ -68,7 +72,7 @@ a.icon {
   color: white
 }
 
-.about-us {
+.sec2 {
   display: flex;
   width: 100%;
   min-height: 800px;
@@ -77,7 +81,7 @@ a.icon {
   column-gap: 50px;
 }
 
-.about-us article {
+.sec2 article {
   display: flex;
   flex-direction: column;
   width: 35%;
@@ -85,9 +89,8 @@ a.icon {
   padding: 30px;
 }
 
-.about-us p {
+.sec2 p {
   width: 80%;
-  font-size: 22px;
 }
 
 h1 {
@@ -96,26 +99,25 @@ h1 {
   color: black;
 }
 
-.about-us img {
+.sec2 img {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   height: auto;
   border-radius: 5px;
 }
 
-.what-we-do {
+.sec3 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 400px;
+  height: 750px;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
   background-color: #33292a;
   color: rgb(255, 255, 255);
 }
 
-.what-we-do article {
+.sec3 article {
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -123,12 +125,8 @@ h1 {
   text-align: center;
 }
 
-.what-we-do h1 {
+.sec3 h1 {
   color: white;
-}
-
-.what-we-do p {
-  font-size: 20px;
 }
 
 .icons {
@@ -151,22 +149,24 @@ h1 {
   justify-self: center;
 }
 
-.our-trips {
-  padding: 60px 0;
+.sec4 {
+  padding: 50px 0;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.container-images {
+.sec4-images {
   display: flex;
   width: 51vw;
+  height: 100%;
   flex-wrap: wrap;
   gap: 1vw;
   justify-content: center;
   margin: 0 auto;
 }
 
-.container-images div {
+.sec4-images div {
   height: 25vh;
   width: 16vw;
   font-size: 3vw;
@@ -221,6 +221,118 @@ h1 {
   background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/simon-english-48nerZQCHgo-unsplash.jpg);
 }
 
+.sec5 {
+  height: 450px;
+  width: 100%;
+  background-color: #644b4f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.sec5-contents {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 110px;
+}
+
+.sec5 h1 {
+  color: white;
+  font-size: 50px;
+  width: 20%;
+  margin: 0;
+}
+
+.sec5 p {
+  margin: 0;
+}
+
+.sec5 article {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  row-gap: 30px;
+}
+
+.button {
+  display: flex;
+  border-radius: 5px;
+  background-color: white;
+  width: 25%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.button h2 {
+  color: black;
+  text-align: center;
+}
+
+.sec6 {
+  height: 815px;
+  padding: 80px 0;
+}
+
+.sec6-content {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  gap: 180px;
+}
+
+.sec6 article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.sec6 p {
+  text-align: center;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
+  width: 100%;
+}
+
+article.single-review {
+  gap: 20px;
+  width: 400px;
+}
+
+.single-review img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: 50% 50%;
+}
+
+.single-review h2 {
+  color: black;
+}
+
+.sec7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.sec7 img {
+  width: 100%;
+  height: 100%;
+}
+
 .contacts {
   display: flex;
   align-items: center;
@@ -230,6 +342,7 @@ h1 {
   min-height: 140px;
   background-color: #333333;
 }
+
 
 .contacts a,
 h3 {
