@@ -53,7 +53,7 @@ a.icon {
 .sec1 {
   width: 100%;
   height: 100vh;
-  background: url("https://citymagazine.b-cdn.net/wp-content/uploads/2021/07/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg") 50% 50%;
+  background-image: url(Images/scott-goodwill.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -190,35 +190,35 @@ h1 {
 }
 
 .img1 {
-  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/daniel-tseng-73lmMKhi2U8-unsplash.jpg);
+  background-image: url(Images/daniel-tseng-73lmMKhi2U8-unsplash.jpg);
 }
 
 .img2 {
-  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg);
+  background-image: url(Images/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg);
 }
 
 .img3 {
-  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/chung-yee-tsang-wqxCKM0R6R8-unsplash.jpg);
+  background-image: url(Images/chung-yee-tsang-wqxCKM0R6R8-unsplash.jpg);
 }
 
 .img4 {
-  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/james-wheeler-ZOA-cqKuJAA-unsplash.jpg);
+  background-image: url(Images/james-wheeler-ZOA-cqKuJAA-unsplash.jpg);
 }
 
 .img5 {
-  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/julian-bialowas-ilkTnuMunP8-unsplash.jpg);
+  background-image: url(Images/julian-bialowas-ilkTnuMunP8-unsplash.jpg);
 }
 
 .img6 {
-  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/matej-drha-rbDzMcJsBkY-unsplash.jpg);
+  background-image: url(Images/matej-drha-rbDzMcJsBkY-unsplash.jpg);
 }
 
 .img7 {
-  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/patrick-szylar-45bM3XGqnDE-unsplash.jpg);
+  background-image: url(Images/patrick-szylar-45bM3XGqnDE-unsplash.jpg);
 }
 
 .img8 {
-  background-image: url(https://raw.githubusercontent.com/caloun28/My-images/refs/heads/main/simon-english-48nerZQCHgo-unsplash.jpg);
+  background-image: url(Images/simon-english-48nerZQCHgo-unsplash.jpg);
 }
 
 .sec5 {
