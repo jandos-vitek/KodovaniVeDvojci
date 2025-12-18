@@ -9,6 +9,13 @@ body {
   margin: 0 auto;
   position: relative;
 }
+nav{
+display: flex;
+justify-content: center;
+ width: 100%;
+   background: #33292a;
+  color: white;
+}
 
 section.container {
   min-height: 963px
@@ -21,13 +28,13 @@ p {
 .topnav {
   display: flex;
   min-height: 80px;
-  background: #33292a;
-  color: white;
   align-items: center;
   justify-content: center;
   gap: 120px;
   margin: 0;
-  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-self: center;
 }
 
 .topnav li {
@@ -78,34 +85,38 @@ a.icon {
   min-height: 800px;
   justify-content: center;
   align-items: center;
-  column-gap: 50px;
+  column-gap: 35px;
 }
-
 .sec2 article {
   display: flex;
   flex-direction: column;
   width: 35%;
-  max-height: 403px;
+  height: auto;
   padding: 30px;
 }
 
-.sec2 p {
-  width: 80%;
-}
+
 
 h1 {
   margin: 0;
   font-size: 30px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
-.sec2 img {
+.sec2-image-container img {
   width: 100%;
-  object-fit: cover;
-  height: auto;
-  border-radius: 5px;
+  height: 100%;
+  object-fit: cover;      
+  object-position: center;
+   display: block;
 }
 
+.sec2-image-container {
+  width: auto;
+  height: auto;  
+  border-radius: 5px;
+  overflow: hidden;  
+}
 .sec3 {
   display: flex;
   flex-direction: column;
@@ -356,17 +367,71 @@ h3 {
   font-weight: bold;
 }
 
-@media screen and (width <=768px) {
+.hamburger{
+justify-self:flex-start;
+width: 70px;
+height: 70px;
+background-color:transparent;
+border: none;
+display: none;
 
-  /* w:390px */
+}
+.hamburger span{
+  display: inline-block;
+width: 40px;
+height: 7px;
+margin-top: 7px;
+border-radius: 50px;
+background-color: rgb(217, 217, 217);
+
+
+}
+ @media(max-width: 1100px){
+
+.topnav li{
+  font-size: 21px;
+}
+.topnav{
+  gap:90px;
+}
+.container-text {
+  right: 10vw;
+}
+ }
+
+
+ @media(max-width: 950px){
+
+
   .container-ima {
     width: 100%
   }
 
-  .topnav {
-    /*display: none;*/
-  }
+ .hamburger{
+  display: block;
+ }
+nav{
+justify-content: right;
+}
+.topnav{
+  display: none;
+}
+.container-text {
+  right: 5vw;
+}
+.sec2-image-container{
+height: 550px;  
+width: 300px;
 
+}
+
+.sec2 {
+  column-gap: 35px;
+  height: auto;
+}
+
+ }
+/*
   a.icon {
     display: block
   }
@@ -404,20 +469,5 @@ h3 {
   .container-images .img-title {
     height: 12.5vh;
   }
-}
+}*/
 
-@media screen and (width <=992px) {
-
-  /* w:390px */
-  .container {
-    width: 100%
-  }
-
-  .topnav {
-    /*display: none;*/
-  }
-
-  a.icon {
-    display: block
-  }
-}
