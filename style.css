@@ -4,6 +4,7 @@ body {
   margin: 0;
 }
 
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -168,13 +169,10 @@ h1 {
 }
 
 .sec4-images {
-  display: flex;
-  width: 51vw;
-  height: 100%;
-  flex-wrap: wrap;
-  gap: 1vw;
-  justify-content: center;
-  margin: 0 auto;
+  display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vw;
+    justify-content: center;
 }
 
 .sec4-images div {
@@ -277,6 +275,7 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 20px 0;
+  padding: 0 10px;
 }
 
 .button h2 {
@@ -310,10 +309,11 @@ h1 {
 
 .reviews {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 10%;
   width: 100%;
+  box-sizing: border-box;
+  padding: 50px 25px;
 }
 
 article.single-review {
@@ -334,6 +334,7 @@ article.single-review {
 }
 
 .sec7 {
+  margin-top: 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -397,15 +398,13 @@ background-color: rgb(217, 217, 217);
 .container-text {
   right: 10vw;
 }
+.icons {
+  width: 90%;
+}
  }
 
 
  @media(max-width: 950px){
-
-
-  .container-ima {
-    width: 100%
-  }
 
  .hamburger{
   display: block;
@@ -429,6 +428,84 @@ width: 300px;
   column-gap: 35px;
   height: auto;
 }
+.sec2 h1{
+  font-size: 50px;
+}
+.icons {
+  margin-bottom: 20px;
+}
+.sec3 article {
+  width: 90%;
+}
+.sec3 img{
+  margin-bottom: 20px;
+}
+.sec3{
+ height: auto;
+ padding-top: 60px;
+padding-bottom: 40px;}
+
+.sec3 h1 {
+  font-size: 50px;
+}
+.sec3 h3 {
+  font-size: 35px;
+}
+
+.icons img {
+  color: white;
+  width: 110px;
+  height: auto;
+  justify-self: center;
+}
+.sec4-images div {
+  height: 34vh;
+  width: 26vw;
+  font-size: 3vw;
+  align-content: center;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 2%;
+}
+.sec4 h1{
+  font-size: 50px;
+}
+.img-title{
+  padding: 20px;
+   box-sizing: border-box;
+}
+.sec4{
+   padding: 60px;
+}
+
+
+.sec5-contents{
+    gap: 90px;
+}
+.sec5-contents h1{
+  font-size: 50px;
+}
+.sec5 article {
+  width: 60%;
+}
+.sec5{
+  height: auto;
+  padding: 50px 0;
+}
+
+
+
+
+
+.sec6-content {
+  gap: 50px;
+}
+
+.sec6 article {
+  width: 90%;
+}
+
+
 
  }
 /*
@@ -470,4 +547,4 @@ width: 300px;
     height: 12.5vh;
   }
 }*/
-
+ 
