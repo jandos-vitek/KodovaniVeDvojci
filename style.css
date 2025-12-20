@@ -414,9 +414,6 @@ background-color: rgb(217, 217, 217);
 .container-text {
   right: 10vw;
 }
-.icons {
-  width: 90%;
-}
 .button{
   width: 30%;
 }
@@ -530,44 +527,100 @@ article.single-review p{
 @media(max-width: 768px){
 
 
+.container-text {
+   right: 5vw;
+   bottom: 60px;
+
 }
-/*
-  a.icon {
-    display: block
-  }
+.container-text h1 {
+  font-size: 70px;
+}
+.sec2{
+  flex-direction: column;
+  column-gap: 20px;
+}
+.sec2 article {
+  width: 90%;
+  height: auto;
+  padding: 10px;
+}
+.sec2-image-container{
+height: auto;  
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sec2-image-container img{
+height: auto;  
+width: 90%;
 
-  .container-images {
-    display: flex;
-    gap: 1vw;
-    justify-content: center;
-    margin: 0 auto;
-    width: 75%;
-  }
+}
+.icons{
+    grid-template-columns: 1fr;
+    gap:30px;
+}
+.sec3 img{
+  margin-bottom: 10px;
+}
+.sec3 article{
+margin-bottom: 100px;
+}
 
-  .container-images div {
-    height: 25vh;
+.sec4{
+  padding:30px 0px;
+}
+.sec4-images {
+    grid-template-columns:1fr;
+justify-items: center;
+align-items: start;
     width: 100%;
-    font-size: 3vw;
-    align-content: center;
-    text-align: center;
-    background-color: #f2f2f2;
-    border-radius: 2%;
-  }
+}
+.sec4-images div {
+  width: 80%;
+  height: 40vh;
+}
 
-  .img1,
-  .img2,
-  .img3,
-  .img4,
-  .img5,
-  .img6,
-  .img7,
-  .img8 {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+ .sec4-images .img-title{
+  width: 80%;  
+  height: 20vh;
 
-  .container-images .img-title {
-    height: 12.5vh;
-  }
-}*/
+}
+.sec5-contents{
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.sec5-contents h1{
+  font-size: 50px;
+  width: 90%;
+}
+.sec5 article {
+  width: 90%;
+}
+.button{
+  width: 37%;
+  padding: 5px;
+}
+.reviews {
+flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+article.single-review {
+  width: 90%;
+  margin-bottom: 35px;
+  gap:40px;
+}
+
+.sec7{
+    grid-template-columns:1fr;
+}
+
+.contacts{
+  padding: 15px;
+}
+}
+
  
