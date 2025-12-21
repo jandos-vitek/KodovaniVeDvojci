@@ -98,7 +98,7 @@ a.icon {
 
 
 
-h1 {
+h2 {
   margin: 0;
   font-size: 30px;
   color: rgb(0, 0, 0);
@@ -137,7 +137,7 @@ h1 {
   text-align: center;
 }
 
-.sec3 h1 {
+.sec3 h2 {
   color: white;
 }
 
@@ -178,11 +178,12 @@ h1 {
 .sec4-images div {
   height: 25vh;
   width: 16vw;
-  font-size: 3vw;
   align-content: center;
   text-align: center;
   background-color: #f2f2f2;
   border-radius: 2%;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
 }
 
 .img1,
@@ -248,7 +249,7 @@ h1 {
   gap: 110px;
 }
 
-.sec5 h1 {
+.sec5 h2 {
   color: white;
   font-size: 50px;
   width: 20%;
@@ -278,7 +279,7 @@ h1 {
   padding: 0 10px;
 }
 
-.button h2 {
+.button h3 {
   color: black;
   text-align: center;
 }
@@ -330,7 +331,7 @@ article.single-review {
   background-position: 50% 50%;
 }
 
-.single-review h2 {
+.single-review h3 {
   color: black;
 }
 
@@ -356,8 +357,8 @@ article.single-review {
 }
 
 
-.contacts a,
-h3 {
+.contacts a
+{
   color: #f3a9a0;
   margin: 0;
 }
@@ -405,18 +406,7 @@ background-color: rgb(217, 217, 217);
   width: 30%;
 }
 
-.topnav li{
-  font-size: 21px;
-}
-.topnav{
-  gap:90px;
-}
-.container-text {
-  right: 10vw;
-}
-.button{
-  width: 30%;
-}
+
  }
 
 
@@ -443,7 +433,7 @@ width: 300px;
   column-gap: 35px;
   height: auto;
 }
-.sec2 h1{
+.sec2 h2{
   font-size: 50px;
 }
 .icons {
@@ -460,7 +450,7 @@ width: 300px;
  padding-top: 60px;
 padding-bottom: 40px;}
 
-.sec3 h1 {
+.sec3 h2 {
   font-size: 50px;
 }
 .sec3 h3 {
@@ -477,7 +467,7 @@ padding-bottom: 40px;}
   height: 34vh;
   width: 26vw;
 }
-.sec4 h1{
+.sec4 h2{
   font-size: 50px;
 }
 .img-title{
@@ -492,7 +482,7 @@ padding-bottom: 40px;}
 .sec5-contents{
     gap: 90px;
 }
-.sec5-contents h1{
+.sec5-contents h2{
   font-size: 50px;
 }
 .sec5 article {
@@ -528,9 +518,8 @@ article.single-review p{
 
 
 .container-text {
-   right: 5vw;
    bottom: 60px;
-
+   width: 350px;
 }
 .container-text h1 {
   font-size: 70px;
@@ -564,7 +553,7 @@ width: 90%;
   margin-bottom: 10px;
 }
 .sec3 article{
-margin-bottom: 100px;
+margin-bottom: 70px;
 }
 
 .sec4{
@@ -578,12 +567,13 @@ align-items: start;
 }
 .sec4-images div {
   width: 80%;
-  height: 40vh;
+  height: 42vh;
+  font-size: 45px;
 }
 
  .sec4-images .img-title{
   width: 80%;  
-  height: 20vh;
+  height: 14vh;
 
 }
 .sec5-contents{
@@ -591,7 +581,7 @@ align-items: start;
     flex-direction: column;
     align-items: center;
 }
-.sec5-contents h1{
+.sec5-contents h2{
   font-size: 50px;
   width: 90%;
 }
@@ -622,5 +612,21 @@ article.single-review {
   padding: 15px;
 }
 }
+@media(max-width: 400px){
 
+.container-text h1 {
+  font-size: 55px;
+}
+.container-text {
+  width: 270px;
+}
+.sec3 article{
+margin-bottom: 150px;
+}
+.button{
+  width: 40%;
+
+}
+
+}
  
